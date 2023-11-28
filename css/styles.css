@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* top nav */
+.top-section {
+    padding: 2.3rem 1rem;
+}
+
+.top-section a{
+    text-decoration: none;
+}
+.top-section h2{
+ background: #830D27;
+ display: flex;
+ display: inline-block;
+ padding: 1rem 1.5rem;
+ color: #fff;
+ border-radius: 0.375rem;
+ font-size: 1.5rem;
+}
+/* top nav end */
+/* navbar */
+.navbar .navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar .nav-item a{
+    font-size: 1.5rem;
+    color: rgb(0 0 0 / 65%);   
+    font-weight: 500; 
+} 
+/* navbar end */
+/* hero section */
+.hero-section h1{
+    padding: 2em;
+    color: red;
+    text-decoration: underline;
+}
+.hero-section h3{
+    text-shadow: #FC0 1px 0 10px;
+    margin-bottom: 2rem;
+}
+.hero-btn a{
+  text-decoration: none;
+
+
+}
+.hero-btn h2{
+    display: flex;
+    display: inline-block;
+    background: #830D27;
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: 0.375rem;
+    font-size: 1.5rem;
+}
+.hero-section .text{
+    border: 1px solid #830D27;
+    margin-top: 3rem;
+}
+.h-last-content ul li{
+   font-size: 2rem;
+   padding: 0 .2rem;
+   color: #FC0;
+}
+/* hero section end*/
+/* Testimonial  */
+.testimonial{
+    background: #7C4F8A;
+    color: #fff;
+    padding: .8rem 5rem;
+    margin-top: 3rem;
+    
+}
+.testimonial h1{
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 2.3rem;
+    
+}
+.testimonial .col-md-12{
+    padding: 1rem 1rem;
+} 
+.testimonial-seciton .video{
+    margin: 2rem 1rem;
+    border-radius: 0.375rem;
+    display: inline-block;
+}
+.testimonial-seciton video{
+    cursor: pointer;
+}
+/* Testimonial end */ 
+/* about */
+
+.about-top{
+    background: #7C4F8A; 
+    color: #fff;
+    padding: 1rem 1rem;
+}
+.about-top h1{
+    font-size: 2.3rem;
+}
+.about {
+    margin: 3rem 1rem;
+}
+.about .text-about{
+    font-size: 1.1rem;
+    line-height: 3rem;
+}
+.about p{
+    font-size: 18px;
+}
+
+.about .about-last h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.about .about-btn a{
+    text-decoration: none;
+}
+.about .about-btn h2{
+    background: #830D27;
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+/* about end */
+
+/* section 5 */
+.section-5 {
+    color: #fff;
+    background: #7C4F8A; 
+    padding: 1rem 1rem;    
+}
+.section-5 h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.section5-content .section5-h{
+    margin-bottom: 1.2rem;
+}
+.section5-content p{
+    font-size: 1.1rem;
+}
+/* section 5 end*/
+/* section 6 */
+.section-6{
+    color: #fff;
+    background: #7C4F8A; 
+    padding: 1rem 1rem; 
+    margin-top: 1rem;
+}
+.section6-content {
+    padding-top: 3rem;
+}
+.section6-content p{
+    font-size: 1.1rem;
+}
+.section6-content table{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.section6-content table th{
+    font-size: 1.2rem;
+}
+.section6-content table td{
+    font-size: 1.1rem;
+}
+/* section 7 */
+.section-7 {
+    color: #fff;
+    background: #7C4F8A; 
+    padding: 1rem 1rem; 
+    margin-top: 1rem;
+}
+
+.section7-content {
+    padding: 3rem 1rem;
+}
+.section7-content p{
+    font-size: 1.1rem;
+}
+.section7-content .section7-btn{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.section7-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.section7-btn h2{
+    background: #830D27;
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* section 7 End*/
+
+/* footer  */
+footer{
+    background: #7C4F8A;
+    padding: 3rem 1rem;
+    color: #fff;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer li a{
+    color: #fff;
+    padding: .5rem .5rem;
+}
+
+/* footer  */
+
+/* top nav */
+
+@media screen and (max-width: 768px) {
+    .top-section h2{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .top-section h2{
+        font-size: .7rem;
+        padding: 1rem 1rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .hero-section .hero-btn h2{
+        font-size: 1rem !important;
+    }
+}
+@media screen and (max-width: 768px){
+    .testimonial h1{
+        font-size: 1.5rem;
+    }
+   /* about */
+    .about-top h1{
+        font-size: 1.5rem;
+    }
+    .about .about-last h1{
+        font-size: 1.5rem;
+    }
+    .about .about-btn h2{
+        font-size: 1rem;
+    }
+    /* section 5  */
+    .section-5 h1{
+        font-size: 1.5rem;
+    }
+    /* section 6  */
+    .section-6 h1{
+        font-size: 1.5rem;
+    }
+    .table thead tr th{
+       font-size: 1rem !important;
+    }
+    .table tbody tr td{
+        font-size: .9rem;
+    }
+    /* section 7 */
+    .section-7 h1{
+        font-size: 1.5rem;
+    }
+    .section7-content h2{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .about .about-btn h2{
+        font-size: .7rem;
+        padding: 1rem .7rem;
+    }
+}
